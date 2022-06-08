@@ -4,7 +4,7 @@ import InfosProfissionais from './InfosProfissionais';
 
 class Formulario extends Component {
   render(){
-    const {sendForm, resetForm, changeHandler, currentState, changeOnBlur} = this.props;
+    const {sendFormulario, resetFormulario, changeHandler, currentState, changeOnBlur} = this.props;
 
     return (
     <form>
@@ -16,12 +16,12 @@ class Formulario extends Component {
       <InfosProfissionais changeHandler={ changeHandler }/>
       <input 
       type="button"
-      onClick={ sendForm }
+      onClick={ sendFormulario }
       value="Enviar"
       />
       <input 
       type="reset"
-      onClick={ resetForm }
+      onClick={ resetFormulario }
       value="Limpar"
       />
     </form>

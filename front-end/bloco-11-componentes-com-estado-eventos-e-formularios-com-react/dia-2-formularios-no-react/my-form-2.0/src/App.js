@@ -2,8 +2,7 @@ import { Component } from 'react';
 import './App.css';
 import Formulario from './Formulario';
 import FormularioError from './FormularioError';
-import FormDataDisplay from './FormDataDisplay';
-
+import FormDataDisplay from './FormDataDisplay'
 const INITIAL_STATE = {
   name: '',
   email: '',
